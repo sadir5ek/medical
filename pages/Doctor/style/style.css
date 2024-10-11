@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 70px;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    top: 0;
+}
+.auth {
+    margin-left: 520px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+}
+.navigation li{
+    margin-left: 30px;
+    list-style: none;
+}
+.navigation li:hover{
+    color: red;
+    cursor: pointer;
+}
+.ssss{
+    text-decoration: none;
+}
+.signUp{
+padding: 12px 22px 12px 22px ;
+border-radius: 10px;
+background-color: #4d77ff;
+color: white;
+border: none;
+cursor: pointer;
+
+}
+.signUp:hover{
+    background-color: red;
+    
+}
+.signIn{
+    padding: 12px 22px 12px 22px ;
+    border-radius: 10px;
+    background-color:white;
+    border: none;  
+    cursor: pointer;
+}
+.signIn:hover{
+    background-color: red;
+}
+.doctorr1{
+    margin-top: 70px;
+    margin: 50px;
+}
+.doctor-tx h2{
+    text-align: center;
+}
+.doctor-tx h3{
+margin-top: 15px;
+text-align: center;
+}
+.doc-img img{
+    width: 350px;
+    margin-right: 70px;
+    
+}
+.doctor1{
+    display: flex;
+    margin-top: 30px;
+    
+    
+}
+.doc-t{
+    margin-top: 50px;
+}
+.doc-t h4{
+    margin-top: 20px;
+} 
+.doc-t p{
+    margin-top: 30px;
+    color: gray;
+    margin-right: 50px;
+}
+.doctor2{
+    display: flex;
+    margin-top: 30px;
+}

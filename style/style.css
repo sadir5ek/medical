@@ -1,0 +1,356 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 70px;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    top: 0;
+}
+.auth {
+    margin-left: 520px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+}
+.navigation li{
+    margin-left: 30px;
+    list-style: none;
+}
+.navigation li:hover{
+    color: red;
+    cursor: pointer;
+}
+.ssss{
+    text-decoration: none;
+}
+.signUp{
+padding: 12px 22px 12px 22px ;
+border-radius: 10px;
+background-color: #4d77ff;
+color: white;
+border: none;
+cursor: pointer;
+
+}
+.signUp:hover{
+    background-color: red;
+    
+}
+.signIn{
+    padding: 12px 22px 12px 22px ;
+    border-radius: 10px;
+    background-color:white;
+    border: none;  
+    cursor: pointer;
+}
+.signIn:hover{
+    background-color: red;
+}
+/*block2*/
+.block1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.block1-text h1{
+    font-family: Manrope;
+    font-size: 54px;
+    font-weight: 700px;
+    margin-top: 50px;
+}
+.block1-text p{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    color: #696969;
+    margin: 26px 0;
+}
+.block1-text button{
+    padding: 16px 36px 16px 36px ;
+    border-radius: 10px;
+    background-color: #4d77ff;
+    color: white;
+    border: none;
+}
+.block1-text button:hover{
+cursor: pointer;
+background-color: red;
+/*block 2 */
+}
+.block2-text{
+    text-align: center;
+    margin-top: 100px;
+}
+.block2-text h4{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4d77ff;
+}
+.block2-text h2{
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 700;
+}
+.card{
+    width: 287px; 
+    padding: 50px 40px;
+    border-top: 4px solid #4d77ff;
+    box-shadow: 10px 5px 5px rgb(188, 181, 181);
+    border-radius: 0px 0px 10px 10px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+/*block 3*/
+.block3{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 70px;
+}
+.block3-text h4{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4d77ff;
+    
+}
+.block3-text h2{
+font-family: Manrope;
+font-size: 32px;
+font-weight: 700;
+margin-top: 10px;
+}
+.block3-text p{
+font-family: Manrope;
+font-size: 14px ;
+font-weight: 700;
+color:#696969;
+margin: 26px 0;
+
+}
+.nurs {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.nurs p {
+    font-family: Manrope;
+font-size: 14px;
+font-weight: 600;
+color: #121212;
+
+
+}
+.block3-text button {
+    padding: 16px 36px 16px 36px ;
+    background-color: #4d77ff;
+    color: white;
+    border: none;
+border-radius: 10px ;
+}
+.block3-text button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+.block3-doctors {
+position: absolute;
+right: 318px;
+background-color: white;
+border-radius: 10px;
+padding: 10px ;
+width: 202px;
+top: 40px;
+}
+.doc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.btn{
+    background-color: #edf1ff;
+    padding: 8px 42px;
+    border-radius: 10px;
+    border: none;
+    color: #4d77ff;
+}
+.btn:hover{
+background-color:red ;
+cursor: pointer;
+}
+/*block 4*/
+.block4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.block4-img img {
+    width: 611px;
+    height: 375px;
+    border-radius: 1000px ;
+    margin-right: 70px;
+
+}
+.block4-text h4{
+font-family: Manrope;
+font-size: 14px;
+font-weight: 700;
+color: #4d77ff;
+}
+.block4-text h2{
+    font-family: Mahrope;
+    font-size: 32px;
+    font-weight: 700;
+}
+.block4-text p{
+    font-family: Manrope;
+    font-size: 14px ;
+    font-weight: 700;
+    color:#696969;
+    margin: 15px;
+}
+.block4-text button{
+    padding: 16px 36px 16px 36px ;
+    background-color: #4d77ff;
+    color: white;
+    border: none;
+border-radius: 10px ;  
+}
+.block4-text button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+ .nurs p{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    color: #121212;
+}
+/* block 5 */
+.block5-text{
+text-align: center;
+}
+.block5-text h4{
+    font-family: Manrope;
+    margin-top: 50px;
+font-size: 14px;
+font-weight: 700;
+color: #4d77ff;
+}
+.block5-text h2{
+    font-family: Mahrope;
+    font-size: 32px;
+    font-weight: 700;    
+}
+.card5 {
+    width: 287px; 
+    padding: 50px 40px;
+    border-top: 4px solid #4d77ff;
+    box-shadow: 10px 5px 5px rgb(188, 181, 181);
+    border-radius: 0px 0px 10px 10px;
+    align-items: center;
+    text-align: center;
+}
+.card5 h4{
+    margin-top: 20px;
+}
+.card5 p{
+    margin-top: 10px;
+}
+.cards-5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+/*block 6 */ 
+.block6{
+    margin: 100px 0;
+}
+.block6 h2{
+    font-family: Manrope;
+font-size: 32px;
+font-weight: 700;
+color: #121212;
+text-align: center;
+}
+.block6 p{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    color: #696969;
+    text-align: center;
+    padding: 8px;
+}
+.block8 {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    margin: 120px 10px ;
+}
+.blockkk{
+    width: 400px;
+    height: 360px;
+    border: 4px solid red;
+}
+.doctor img{
+    width: 400px;
+}
+.doctor{
+    position: relative;
+    right: 480px;
+    top: -50px;
+}
+.rmv p{ 
+font-size: 25px;
+font-family: Manrope;
+    width: 480px;
+font-weight: 400px;
+margin-left: -300px;
+}
+.rmv h3{
+text-align: start;
+font-family: Manrope;
+margin-left: -300px;
+}
+.rmv h4{
+    font-family: Manrope;
+    margin-left: -300px;
+    color: #696969;
+}
+.sadir{
+    margin-top: 150px;
+}
+/* footer*/
+.block7-cards{
+display: flex;
+justify-content: space-between;
+}
+.card7 li{
+list-style: none;
+margin-top: 7px;
+}
+.card7 ul{
+margin-top: 10px;
+}
+.card7 img{
+    margin: 7px;
+}

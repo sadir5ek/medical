@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.header{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 70px;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    top: 0;
+}
+.auth {
+    margin-left: 520px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+}
+.navigation li{
+    margin-left: 30px;
+    list-style: none;
+}
+.navigation li:hover{
+    color: red;
+    cursor: pointer;
+}
+.ssss{
+    text-decoration: none;
+}
+.signUp{
+padding: 12px 22px 12px 22px ;
+border-radius: 10px;
+background-color: #4d77ff;
+color: white;
+border: none;
+cursor: pointer;
+
+}
+.signUp:hover{
+    background-color: red;
+    
+}
+.signIn{
+    padding: 12px 22px 12px 22px ;
+    border-radius: 10px;
+    background-color:white;
+    border: none;  
+    cursor: pointer;
+}
+.signIn:hover{
+    background-color: red;
+}
+
+/*block1*/
+.signinn{
+    margin-top: 100px;
+    width: 400px;
+    padding:60px 60px 60px 60px;
+    background-color: rgb(160, 160, 160);
+    text-align: center;
+    margin-left: 350px;
+}
+.hed{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.tex{
+    text-align: center;
+}
+.tex h2{
+    margin-top: 40px;
+}
+.tex p{
+    margin-top: 40px;
+}
+.ppp{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.inpt{
+    outline-style: none;
+}
+.ddd{
+    text-align: center;
+    margin-top: 5px;
+    
+}
+.signinn button{
+text-align: center;
+margin-top: 15px;
+padding: 7px 50px 7px 50px ;
+border-radius: 10px;
+background-color: #4d77ff;
+color: white;
+border: none;
+cursor: pointer;
+}
+.signinn button:hover{
+    background-color: red;
+}
+.butn{
+    display: flex;
+justify-content: space-evenly;
+    margin-top: 40px;
+}
+.img img{
+    justify-content: space-between;
+    margin-top: 20px;
+}
